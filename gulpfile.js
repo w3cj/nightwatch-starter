@@ -20,7 +20,7 @@ gulp.task("nightwatch", function () {
 
 gulp.task("http-server", function () {
   return connect.server({
-    root: 'src',
+    root: '.',
     port: 8080
   });
 });
